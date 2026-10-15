@@ -1,0 +1,109 @@
+{
+  "pensamientos_por_lugar": {
+    "casa": [
+      "Cuando me reciba voy a comprar una mansión.",
+      "Hora de quedarme dormido viendo tik-tok.",
+      "Prendería la estufa pero no puedo pagar el gas.",
+      "Cené mate cocido con galletitas de agua. Dieta de filósofo.",
+      "¿Y si dejo la carrera y me pongo un parripollo?",
+      "Mi gato entiende más de Hegel que yo a esta altura.",
+      "El monoambiente tiene humedad pero le da un aire bohemio berlinés."
+    ],
+    "patio": [
+      "¿Eso es un cigarrillo? Huelo raro...",
+      "Vamos a hacer la revolución con los cumpas.",
+      "Un pibe recién me explicó el peronismo usando Dragon Ball Z.",
+      "¿Alguien tiene fuego? Nadie tiene fuego en esta facultad.",
+      "Esa paloma cursa acá desde 2014.",
+      "Me convidaron un mate sin yerba.",
+      "Te juro que después de este pucho entro a cursar.",
+      "El café del buffet está que pela, pero me revive el alma."
+    ],
+    "instituto": [
+      "Se la extraña a la Betty Sarlo.",
+      "¿Eso es moho o una nueva especie extraterrestre?",
+      "Descubrí un manuscrito de 1932 pegoteado con dulce de leche.",
+      "Si cito a Deleuze tres veces se me aparece en el espejo.",
+      "El director de tesis huele raro.",
+      "Acá hace 4 grados bajo cero para preservar los incunables.",
+      "Tengo 80 páginas escritas y todavía no dije nada."
+    ],
+    "aula": [
+      "La profe no sabe prender el cañón.",
+      "Extraño a mi maestra de primaria.",
+      "Le dije papá al titular de cátedra.",
+      "Asiento con la cabeza como si entendiera de qué carajo habla.",
+      "La vida no vive.",
+      "Vine solo a firmar el práctico, no me hagan hablar por favor.",
+      "Anoté tres carillas de cosas que no sé qué significan."
+    ],
+    "biblioteca": [
+      "Si duermo sobre los apuntes absorbo el conocimiento.",
+      "Odio leer. Quiero ser licenciado en Letras.",
+      "Hay un chabón roncando arriba de la Crítica de la Razón Pura.",
+      "El libro que necesito lo tiene prestado alguien desde 1993.",
+      "Subrayé todo el texto con amarillo. Ahora todo es importante.",
+      "El silencio me da ansiedad.",
+      "Me tomé tres cafés y ya escucho los colores del tomo."
+    ],
+    "cefyl": [
+      "Entré a buscar una fotocopia y salí afiliado a tres agrupaciones.",
+      "No sé qué votamos a mano alzada pero grité con convicción.",
+      "El megáfono está acoplando directamente en mi tímpano.",
+      "Me dieron un volante, un sticker y una crisis vocacional.",
+      "La fotocopiadora no tiene tóner desde la caída del Muro de Berlín.",
+      "¿La asamblea dura 6 horas? Traigan bolsa de dormir."
+    ]
+  },
+  "estados_especiales": {
+    "burnout": [
+      "¿Saussure? Yo solo conozco el dolor.",
+      "Mi cerebro se licuó. Ahora soy un significante vacío flotando.",
+      "Si me preguntan qué es la ontología me pongo a llorar en el banco.",
+      "Gente, me despersonalicé. Saludos desde la estratósfera.",
+      "¿El colapso nervioso cuenta como seminario?",
+      "Veo a Foucault en la humedad de la pared."
+    ],
+    "baja_energia": [
+      "Un café del buffet o me declaro biológicamente inerte.",
+      "Mis párpados pesan cuatrocientos kilos cada uno.",
+      "Tengo menos reflejos que el cadáver de Viñas.",
+      "Si cierro los ojos dos segundos entro en coma inducido.",
+      "El cuerpo me pide una siesta de tres meses seguidos."
+    ]
+  },
+  "por_arquetipo": {
+    "conicet": {
+      "instituto": [
+        "Revisé la nota al pie número 42. Esta tesis va a hacer temblar a la academia."
+      ],
+      "biblioteca": [
+        "Fichar en silencio es mi adicción. Ni un error de citación APA."
+      ]
+    },
+    "militante": {
+      "cefyl": [
+        "¡A romper el quórum en la asamblea de carrera!"
+      ],
+      "patio": [
+        "Milité dos horas bajo el pino y sumé tres compañeros a la mesa."
+      ]
+    },
+    "laburante": {
+      "casa": [
+        "Dormí 4 horas pero soñé que me aumentaban el sueldo."
+      ],
+      "aula": [
+        "Llegué en el 145 con olor a colectivo pero con el presente firmado."
+      ]
+    },
+    "poeta": {
+      "patio": [
+        "Este aforismo en la servilleta de las empanadas va a cambiar la literatura rioplatense."
+      ],
+      "casa": [
+        "El alquiler vence en tres días, pero la poesía es eterna."
+      ]
+    }
+  }
+}

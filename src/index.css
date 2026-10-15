@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --retro-navy: #181c2b;
+    --retro-dark: #0f111a;
+    --retro-blue: #2c4485;
+    --retro-teal: #148082;
+    --retro-gold: #e2a12d;
+    --retro-amber: #d97706;
+    --retro-red: #c53030;
+    --retro-green: #2f855a;
+    --retro-paper: #f4efe4;
+    --retro-card: #202538;
+    --retro-border: #444d6a;
+  }
+
+  body {
+    background-color: #08090f;
+    color: #e2e8f0;
+    font-family: 'Courier New', Courier, monospace, system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-retro {
+  font-family: 'VT323', monospace;
+}
+
+/* Authentic Sierra On-Line (1990) Bevel Windows */
+.sierra-frame {
+  background-color: #1e2235;
+  border: 4px solid #a8b0c4;
+  border-top-color: #ffffff;
+  border-left-color: #ffffff;
+  border-bottom-color: #2b3047;
+  border-right-color: #2b3047;
+  box-shadow: 4px 4px 0px #000000;
+}
+
+.sierra-inner-frame {
+  border: 3px solid #2b3047;
+  border-top-color: #10121d;
+  border-left-color: #10121d;
+  border-bottom-color: #636c8f;
+  border-right-color: #636c8f;
+  background-color: #0c0e17;
+}
+
+.sierra-btn {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: 3px solid #94a3b8;
+  border-top-color: #ffffff;
+  border-left-color: #ffffff;
+  border-bottom-color: #334155;
+  border-right-color: #334155;
+  box-shadow: 2px 2px 0px #000;
+  transition: all 0.06s ease;
+}
+
+.sierra-btn:hover:not(:disabled) {
+  filter: brightness(1.2);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #000;
+}
+
+.sierra-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #000;
+  border-top-color: #334155;
+  border-left-color: #334155;
+  border-bottom-color: #ffffff;
+  border-right-color: #ffffff;
+}
+
+.sierra-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  filter: grayscale(0.8);
+}
+
+/* Pixel art rendering crispness */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Retro character animation */
+@keyframes pixel-idle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.animate-pixel-idle {
+  animation: pixel-idle 1.6s ease-in-out infinite;
+}
+
+@keyframes pixel-stress {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-1px, 1px);
+  }
+  75% {
+    transform: translate(1px, -1px);
+  }
+}
+
+.animate-pixel-stress {
+  animation: pixel-stress 0.2s steps(2) infinite;
+}
+
+/* Retro Sierra EGA/VGA beveled borders and card styling */
+.retro-box {
+  background-color: #1a1e2e;
+  border: 3px solid #6b7280;
+  border-top-color: #9ca3af;
+  border-left-color: #9ca3af;
+  border-bottom-color: #374151;
+  border-right-color: #374151;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.retro-box-gold {
+  background-color: #1a1e2e;
+  border: 3px solid #d97706;
+  border-top-color: #fde68a;
+  border-left-color: #fde68a;
+  border-bottom-color: #78350f;
+  border-right-color: #78350f;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+.retro-btn {
+  position: relative;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.08s ease;
+  border: 2px solid #cbd5e1;
+  border-top-color: #ffffff;
+  border-left-color: #ffffff;
+  border-bottom-color: #475569;
+  border-right-color: #475569;
+  box-shadow: 2px 2px 0px #000;
+}
+
+.retro-btn:hover:not(:disabled) {
+  filter: brightness(1.15);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #000;
+}
+
+.retro-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #000;
+  border-top-color: #475569;
+  border-left-color: #475569;
+  border-bottom-color: #ffffff;
+  border-right-color: #ffffff;
+}
+
+.retro-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  filter: grayscale(0.8);
+}
+
+/* CRT scanlines effect */
+.crt-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Custom retro scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111420;
+}
+::-webkit-scrollbar-thumb {
+  background: #3e4868;
+  border: 2px solid #111420;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5b6994;
+}
